@@ -259,10 +259,10 @@
 %\setlength{\headsep}{0.72cm}
 %\setlength{\footskip}{0.79cm}
 % NOTE:  20240112按照官方模板测量结果
-\geometry{a4paper, left=3.17cm, right=3.17cm, top=2.54cm, bottom=3.24cm}
-\setlength{\headheight}{0.32cm}
-\setlength{\headsep}{0.92cm}
-\setlength{\footskip}{1.29cm}
+\geometry{a4paper, left=3.17cm, right=3.17cm, top=2.44cm, bottom=3.24cm} % top 2.54 bottom 3.24
+\setlength{\headheight}{0.62cm} % 0.32
+\setlength{\headsep}{0.72cm} % 0.92
+\setlength{\footskip}{1.25cm} % 1.29
 
 %% Typeset LaTeX commands as text
 \RequirePackage{listings}
@@ -394,8 +394,8 @@
 }
 
 %% linespread行间距
-\setlength\parskip{\p@}%0\p@ \@plus 0.1\p@}
-\linespread{1.4} % 1.5倍行距，要求为20磅，小四号字体情况下差2磅
+\setlength{\parskip}0 % 取消段落之间的行间距
+\linespread{1.4}\selectfont % 1.5倍行距，要求为20磅，小四号字体情况下差2磅
 %\setlength{\baselineskip}{2000pt}
 
 \setlength{\abovecaptionskip}{3pt} % 20240110修改图表和文本间距
