@@ -152,6 +152,7 @@
 
 %% Math Packages
 %\interdisplaylinepenalty=2500
+\RequirePackage{mathtools}
 \RequirePackage{unicode-math}
 %\RequirePackage{amssymb}
 %\RequirePackage{bm}
@@ -185,7 +186,6 @@
 \RequirePackage{acronym}
 \RequirePackage{IEEEtrantools}
 
-\RequirePackage{mathtools}
 \RequirePackage[table,usenames,svgnames,dvipsnames]{xcolor}
 \RequirePackage{longtable}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
@@ -394,7 +394,7 @@
 }
 
 %% linespread行间距
-\setlength{\parskip}0 % 取消段落之间的行间距
+\setlength{\parskip}{0pt} % 取消段落之间的行间距
 \linespread{1.4}\selectfont % 1.5倍行距，要求为20磅，小四号字体情况下差2磅
 %\setlength{\baselineskip}{2000pt}
 
@@ -607,7 +607,7 @@
 \def\makeenglishtitle{%
   \begin{flushright}
     %\zihao{4}\bfseries \BUPT@label@confidential\BUPT@value@confidential~~~~\BUPT@label@confidentialtime\BUPT@value@confidentialtime~~~~
-    \zihao{4}\bfseries \BUPT@label@confidentialEN\BUPT@value@confidentialEN~~~~
+    %\zihao{4}\bfseries \BUPT@label@confidentialEN\BUPT@value@confidentialEN~~~~
   \end{flushright}
   \begin{center}
     %{\fontsize{28}{\p@}\bfseries \BUPT@label@schoolnameEN} % NOTE: 20240103旧版本英文封面
