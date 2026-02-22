@@ -260,7 +260,7 @@
 %\setlength{\footskip}{0.79cm}
 % NOTE:  20240112按照官方模板测量结果
 \geometry{a4paper, left=3.17cm, right=3.17cm, top=2.44cm, bottom=3.24cm} % top 2.54 bottom 3.24
-\setlength{\headheight}{0.62cm} % 0.32
+\setlength{\headheight}{0.60cm} % 0.32
 \setlength{\headsep}{0.72cm} % 0.92
 \setlength{\footskip}{1.25cm} % 1.29
 
