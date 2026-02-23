@@ -10,6 +10,7 @@
 2. 当前该模板只支持[overleaf](https://www.overleaf.com/)进行编译，`Complier`注意选择`XeLaTeX`。直接上传项目压缩包
 3. 修改`main.tex`文件，按照模板要求填写相关信息
 4. 在`Chapters`下创建正文当中的章节内容，并将其引用加入到`main.tex`当中
+5. 编译生成论文PDF文件，将该文件直接打包成zip上传到论无忧上进行格式检查
 
 更多使用说明和常见问题请参考[Wiki页面](https://github.com/jjfu99/BUPTGraduateThesisLatexTemplate/wiki)。
 
