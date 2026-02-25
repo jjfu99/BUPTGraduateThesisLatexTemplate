@@ -263,12 +263,12 @@
 \setlength{\headsep}{0.72cm} % 0.92
 \setlength{\footskip}{1.25cm} % 1.29
 
-% Footnote
-% !default option, for no more than 10 footnotes
+%% Footnote
+%% !default option, for no more than 10 footnotes
 \RequirePackage{pifont}
 \renewcommand{\thefootnote}{\ding{\numexpr171+\value{footnote}}}
 
-% !advanced option, for more than 10 footnotes
+%% !advanced option, for more than 10 footnotes
 % \RequirePackage{tikz}
 % \RequirePackage{graphics}
 % \RequirePackage{etoolbox}
