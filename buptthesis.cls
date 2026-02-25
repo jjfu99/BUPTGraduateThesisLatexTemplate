@@ -93,7 +93,6 @@
 \ExecuteOptions{phd,phil,fulltime,electronic}
 \ProcessOptions\relax
 %% 注意：如果载入文档类的时候，使用phd选项，则phd选项被载入了2次！
-
 \PassOptionsToPackage{no-math}{fontspec}
 
 %% -----------------------------------------------------------------
@@ -260,9 +259,42 @@
 %\setlength{\footskip}{0.79cm}
 % NOTE:  20240112按照官方模板测量结果
 \geometry{a4paper, left=3.17cm, right=3.17cm, top=2.44cm, bottom=3.24cm} % top 2.54 bottom 3.24
-\setlength{\headheight}{0.60cm} % 0.32
+\setlength{\headheight}{0.62cm} % 0.32
 \setlength{\headsep}{0.72cm} % 0.92
 \setlength{\footskip}{1.25cm} % 1.29
+
+% Footnote
+% !default option, for no more than 10 footnotes
+\RequirePackage{pifont}
+\renewcommand{\thefootnote}{\ding{\numexpr171+\value{footnote}}}
+
+% !advanced option, for more than 10 footnotes
+% \RequirePackage{tikz}
+% \RequirePackage{graphics}
+% \RequirePackage{etoolbox}
+% \tikzset{circlednode/.style={
+%     circle,
+%     draw,
+%     inner sep=0.05ex,
+%     text depth=0ex,
+%     font=\normalfont,
+%     minimum size=1ex
+%     }
+% }
+% \newcommand*\circled[1]{%
+%     \ifnumcomp{#1}{>}{9}{% 
+%     % if > 9:
+%     \tikz[baseline=(char.base)]\node[circlednode] (char) {\addfontfeature{LetterSpace=-9.0}\scalebox{0.5}[1]{\bfseries#1}};}{%
+%     % if <= 9: 
+%     \tikz[baseline=(char.base)]\node[circlednode] (char) {#1};}%
+% }
+% \renewcommand{\thefootnote}{%
+%     \raisebox{0.25ex}{%
+%     \scalebox{0.7}{\protect\circled{%
+%             \arabic{footnote}}%
+%         }%
+%     }%
+% }
 
 %% Typeset LaTeX commands as text
 \RequirePackage{listings}
