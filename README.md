@@ -27,13 +27,13 @@
 - `Chapter/Chapter_cnabstract.tex`：中文摘要
 - `Chapter/Chapter_acknowledgements.tex`：致谢
 - `Chapter/Chapter_publications.tex`：创新成果
-- `Chapter/Chapter_experience.tex`: 作者学习经历
-- `Chapter/Chapter_nomeclature.tex`: 符号说明
+- `Chapter/Chapter_experience.tex`：作者学习经历
+- `Chapter/Chapter_nomeclature.tex`：符号说明
 
 ## 改动日志
 
-- 2026.03.11: 加入跨页符号表支持
-- 2026.02.09: 调整字体间距和页面边距，加入Wiki页面
+- 2026.03.11：加入跨页符号表支持
+- 2026.02.09：调整字体间距和页面边距，加入Wiki页面
 - 2025.07.26：加入“盲审”版本支持
 - 2025.07.03：封面当中两行学院的支持
 - 2025.02.21：修正“博士学位”英文封面显示不正确
