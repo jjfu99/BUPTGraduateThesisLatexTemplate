@@ -7,12 +7,14 @@
 ## 基本使用说明
 
 1. 下载模板文件：`bupt_thesis.zip`
-2. 当前该模板只支持[overleaf](https://www.overleaf.com/)进行编译，`Complier`注意选择`XeLaTeX`。直接上传项目压缩包
+2. 直接上传项目压缩包[overleaf](https://www.overleaf.com/)上进行编译，`Complier`注意选择`XeLaTeX`
 3. 修改`main.tex`文件，按照模板要求填写相关信息
 4. 在`Chapters`下创建正文当中的章节内容，并将其引用加入到`main.tex`当中
 5. 编译生成论文PDF文件，将该文件直接打包成zip上传到论无忧上进行格式检查
 
 更多使用说明和常见问题请参考[Wiki页面](https://github.com/jjfu99/BUPTGraduateThesisLatexTemplate/wiki)。
+
+本项目同时支持本地编译，推荐使用`TexLive`环境，编译器选择`XeLaTeX`。本地编译可能因操作系统、TeX 发行版及版本不同出现兼容问题，如遇报错可优先尝试 Overleaf。
 
 ## 模板文件说明
 
@@ -26,15 +28,17 @@
 - `Chapter/Chapter_acknowledgements.tex`：致谢
 - `Chapter/Chapter_publications.tex`：创新成果
 - `Chapter/Chapter_experience.tex`: 作者学习经历
+- `Chapter/Chapter_nomeclature.tex`: 符号说明
 
 ## 改动日志
 
+- 2026.03.11: 加入跨页符号表支持
 - 2026.02.09: 调整字体间距和页面边距，加入Wiki页面
-- 2025.07.26：加入``盲审''版本支持
+- 2025.07.26：加入“盲审”版本支持
 - 2025.07.03：封面当中两行学院的支持
-- 2025.02.21：修正``博士学位''英文封面显示不正确
-- 2025.02.13：更新``算法''模块功能
-- 2025.01.16：根据"学校 2025 年 1 月 15 日版本更新内容"进行修改
+- 2025.02.21：修正“博士学位”英文封面显示不正确
+- 2025.02.13：更新“算法”模块功能
+- 2025.01.16：根据“学校 2025 年 1 月 15 日版本更新内容”进行修改
 - 2024.06.20：初始版本，基本符合模板要求
 
 ## 致谢
