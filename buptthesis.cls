@@ -916,6 +916,28 @@
 \newcommand{\cmathcomma}{\text{，}} % 改变颜色
 \newcommand{\cmathstop}{\text{。}}
 
+%% Long table captions
+\newcommand{\ltcapCN}{}
+\newcommand{\ltcapEN}{}
+
+\newcommand{\setltcaption}[2][]{%
+  \gdef\ltcapCN{#2}%
+  \gdef\ltcapEN{#1}%
+}
+
+\newcommand{\ltcaption}{%
+  \caption{\ltcapCN}\\%
+}
+\newcommand{\ltcaptionc}{%
+  \caption*{续表~\thetable~\ltcapCN}\\%
+}
+
+\newcommand{\ltbicaption}{%
+  \caption[\ltcapCN]{\ltcapCN\\Table~\thetable~ \ltcapEN}\\%
+}
+\newcommand{\ltbicaptionc}{%
+  \caption*{续表~\thetable~\ltcapCN\\Table~\thetable~ \ltcapEN\ (continued)}\\%
+}
 %% -----------------------------------------------------------------
 
 \endinput
